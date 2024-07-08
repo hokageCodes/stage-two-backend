@@ -4,7 +4,7 @@ console.log(process.env.PORT)
 
 module.exports = {
   development: {
-    use_env_variable: 'DATABASE_URL',
+    use_env_variable: 'postgresql://user:g5zN0zfCGvkueY9WYIUo5DkeAgZTVA5m@dpg-cq5hjp5ds78s73d251jg-a.oregon-postgres.render.com/hng_task_2_9lwn',
     dialect: 'postgres',
     dialectOptions: {
       ssl: {
