@@ -7,8 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "jest",
-    "migrate": "npx sequelize-cli db:migrate",
-    "postinstall": "npm run migrate"
+    "postinstall": "npx sequelize-cli db:migrate"
   },
   "keywords": [],
   "author": "Kisame Holmes",
